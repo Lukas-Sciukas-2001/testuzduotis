@@ -19,11 +19,7 @@
 
 
  function produktas_is_tiekejo_edit() {
-    global $woocommerce, $post;
 
-    ?>
-    <div class="options_group">
-        <?php
             woocommerce_wp_checkbox( 
                 array( 
                     'id'            => '_istiek', 
@@ -32,9 +28,7 @@
                     'description'   => __( 'Prekė užsakyta pas tiekėją', 'test-uzd' ) 
                     )
                 );
-        ?>
-    </div>
-    <?php
+
 
 }
 
