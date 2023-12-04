@@ -7,7 +7,7 @@
  * Requires PHP:      7.2
  * Author:            Lukas Ščiukas
  * License:           GPL v2 or later
- * Text Domain:       test-uzd
+ * Text Domain:       uzs-eks
  * Domain Path:       /languages
  */
 
