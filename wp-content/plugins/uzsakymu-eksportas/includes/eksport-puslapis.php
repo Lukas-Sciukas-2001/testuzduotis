@@ -14,6 +14,10 @@ function eksportuoti_uzsakymus_puslapis(){
     
         <form novalidate="novalidate" method="POST" action="admin-post.php">
             <input type="hidden" name="action" value="eksportuoti">
+            <label for="nuo">Data nuo</label>
+            <input type="date" name="nuo" id="nuo"/>
+            <label for="iki">Data iki</label>
+            <input type="date" name="iki" id="iki"/>
             <?php
                 wp_nonce_field('eksport_patikrinti');
                 submit_button("Eksportuoti","primary","eksportuoti_duomenis");
